@@ -1,6 +1,6 @@
-## Run a Golang, Nginx, and React App in Docker
+# Run a Golang, Nginx, and React App in Docker
 
-# https://dev.to/shaggyrec/run-a-golang-nginx-and-react-app-in-docker-59kn
+## https://dev.to/shaggyrec/run-a-golang-nginx-and-react-app-in-docker-59kn
 
 Did you try to run your Golang, Nginx, and React apps locally and fight compatibility issues?
 You need docker to save time. If you are very brave you can even use this scheme in production. But you will be judged by mature programmers with long beards.
