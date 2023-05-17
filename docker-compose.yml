@@ -4,10 +4,8 @@ services:
     build: ./nginx
     ports:
       - "80:80"
-    # depends_on:
-    #   - api
-    # volumes:
-    #   - frontend/build:/app/frontend/build
+    depends_on:
+      - api
   api:
     build:
       context: .
@@ -20,6 +18,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
-    # depends_on:
-    #   - api
-
+    depends_on:
+      - api
